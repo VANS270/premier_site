@@ -1,0 +1,400 @@
+
+.JD
+{
+    border-top: 1px solid rgb(217, 73, 217) ;
+    border-left: 1px solid rgb(217, 73, 217) ;
+    border-bottom: 1px solid rgb(217, 73, 217) ;
+    border-right: 1px solid rgb(217, 73, 217) ;
+    border-radius: 5px  ;
+    padding: 4px;
+    background-color: rgb(217, 73, 217) ;
+    margin-right: 18%;
+    
+
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50%;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 18%;
+    
+    
+    
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    align-items: center;
+    
+}
+.entête
+/* cette classe contient le premier bloc div */
+{
+    display: flex;
+    align-items: center;
+    
+}
+.first,.my_projet
+/* cette classe 'first' est faite pour le contact qui est au navigateur et ' myprojet'  */
+{
+    justify-content: center;
+    border-top: 1px solid rgb(217, 73, 217) ;
+    border-left: 1px solid rgb(217, 73, 217) ;
+    border-bottom: 1px solid rgb(217, 73, 217) ;
+    border-right: 1px solid rgb(217, 73, 217) ;
+    border-radius: 3px  ;
+    padding: 8px;
+    background-color: rgb(217, 73, 217) ;
+    margin-right: 14%;
+    color: white;
+    
+}
+.first,.my_projet:hover
+/* cette classe 'first' est faite pour le contact qui est au navigateur et ' myprojet'  au touché */
+
+{
+    border-top: 1px solid rgb(217, 73, 217) ;
+    border-left: 1px solid rgb(217, 73, 217) ;
+    border-bottom: 1px solid rgb(217, 73, 217) ;
+    border-right: 1px solid rgb(217, 73, 217) ;
+    border-radius: 3px  ;
+    padding: 8px;
+    background-color: rgb(249, 6, 249) ;
+    margin-right: 14%;
+    color: white;
+}
+body
+{
+    font-family: Verdana, sans-serif;
+}
+.Accueil
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    align-items: center;
+    
+    margin-left: 18%;
+    margin-bottom: 14%;
+}
+.bonjour
+/* LA CLASSE'bonjour' est dans le bloc .Accueil */
+{
+    
+    background: #deb8e3;
+    background: linear-gradient(180deg, rgba(222, 184, 227, 0.56) 41%, rgba(187, 240, 240, 0.46) 100%);   
+    padding: 20px;
+    margin-left: 2%;
+    margin-top: 3%;
+    color: rgb(0, 0, 0);
+    
+}
+.XY
+{
+   background-color: rgba(128, 128, 128, 0.171); 
+   width: 20%;
+   padding: 3%;
+   border-radius: 5%;
+   margin-top: 3%;
+}
+strong
+{
+    font-size:larger;
+    font-weight: 800;
+    color:rgba(128, 128, 128, 0.596) ;
+}
+.experience
+/* CETTE CLASSE EST POUR LE BLOC DES experience  ET CONTIENT XY ET STRONG*/ 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: flex-start;
+    
+}
+.bjr
+/* c'est pour le lien de bonjour */
+{
+   margin-top: 8%;
+   margin-bottom: 8%;
+}
+.About
+{
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-radius:40% solid ;
+    gap: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30px;
+    height: 500px;
+    padding-right: 20px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+.img
+{
+    margin-top: 17px;
+    margin-left: 15px;
+    
+}
+.reseaux
+{
+    
+    background-color: white;
+    border-radius: 4px ;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1.3em;
+}
+.img_res
+/* ce bloc contient l image  et les reseaux */
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0%;
+}
+.projet_telechargement
+{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 10%;
+    padding: 10px;
+}
+.telechargement
+{
+    border-top: 1px solid rgb(217, 73, 217) ;
+    border-left: 1px solid rgb(217, 73, 217) ;
+    border-bottom: 1px solid rgb(217, 73, 217) ;
+    border-right: 1px solid rgb(217, 73, 217) ;
+    border-radius: 3px  ;
+    padding: 8px;
+    background-color: white ;
+    margin-right: 14%;
+    color: rgb(217, 73, 217);
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    
+
+}
+/* ICI JE COMMENCE POUR PROCESS */
+.Process
+{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    height: 190%;
+    width: 100%;
+}
+.lorem
+{
+    border-radius: 6px;
+    box-shadow: -3px -3px 8px 0px rgba(0, 0, 0, 0.226) ;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.lorem:hover
+/* ce qu on vois quand on survol */
+{
+    border-radius: 6px;
+    box-shadow: -3px -3px 8px 0px rgba(0, 0, 0, 0.226) ;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 3%;
+    position: relative;
+    bottom: 6px;
+    left: 4px;
+}
+.grids
+/* .grids contient .lorem */
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    row-gap: 1em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+.work_space
+{
+    margin-left: 8%;
+}
+/* ICI JE COMMENCE POUR 'services' */
+.services
+{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    background-color: rgba(128, 128, 128, 0.253);
+    height: 190%;
+    width: 100%;
+    margin-top: 8%;
+
+}
+.what
+{
+margin-left: 8%;
+}
+.story
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+.bloc_story
+{
+    border-radius: 6px;
+    box-shadow: -1px -1px 8px 0px rgba(0, 0, 0, 0.226) ;
+    background-color: white;
+    padding:5%
+}
+.bloc_story:hover
+{
+    border-left: 5px rgb(217, 73, 217) solid;
+    border-radius: 6px;
+    box-shadow: -1px -1px 8px 0px rgba(0, 0, 0, 0.226) ;
+    background-color: white;
+    padding:5%;
+    position:relative;
+    left: 6px;
+    
+}
+/* ICI JE COMMANCE LE PORTFOLIO */
+.communication1
+/* ICI JE GROUPE LE TEXTE ET LES IMAGE DU PORTFOLIO... */
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 29px;
+    max-width: 260px;
+}  
+.lorems
+{
+    width: 90%;
+    padding-bottom: 3px;
+}
+.bloc_portfolio
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 4%;
+    column-gap: 4%;
+   justify-content: space-around;
+    background: linear-gradient(118deg,rgba(170, 240, 233, 0.27) 40%, rgba(234, 83, 237, 0.29) 70%);
+    margin-bottom: 60px;
+}
+.COM2
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    max-width: 260px;
+    text-align: center;
+    padding-bottom: 7px;
+    box-shadow: 14px 11px 10px -7px rgba(0,0,0,0.69) ;
+}
+h4
+{
+    color: rgba(128, 128, 128, 0.495);
+}
+.case_study
+{
+    justify-content: center;
+    border-top: 1px solid rgb(217, 73, 217) ;
+    border-left: 1px solid rgb(217, 73, 217) ;
+    border-bottom: 1px solid rgb(217, 73, 217) ;
+    border-right: 1px solid rgb(217, 73, 217) ;
+    border-radius: 3px  ;
+    padding: 2px;
+    background-color: rgb(255, 255, 255) ;
+    margin-right: 18%;
+    margin-left: 18%;
+    display: flex;
+    
+}
+.Discutons-en
+{
+    text-align: center;
+    height: 300px;
+    background-color: rgb(217, 73, 217);
+    text-wrap: 4px;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.travail
+/* c'est le lien qui est dans le bloc .Discutons-en */
+{
+    color: white;
+    justify-content: center;
+    border-top: 1px solid white ;
+    border-left: 1px solid white ;
+    border-bottom: 1px solid white ;
+    border-right: 1px solid white ;
+    border-radius: 3px  ;
+    padding: 8px;
+    margin-right: 14%;
+    
+}
+.temoignage
+{
+    text-align: center;
+}
+.copy5
+/* ce bloc contient le text */
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 7px;
+    box-shadow: 1px 1px 10px -7px rgba(0,0,0,0.69) ;
+}
+.copy 
+/* ce bloc contient l'image et le texte  */
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.Discutons-en_2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 4%;
+    column-gap: 4%;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    
+}
